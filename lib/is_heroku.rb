@@ -1,3 +1,3 @@
 def heroku?
-  !!ENV['DATABASE_URL']
+  !!ENV['DYNO']
 end
